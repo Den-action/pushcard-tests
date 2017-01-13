@@ -1,2 +1,7 @@
 {
+    "require": {
+        "phalcon/devtools": "^3.0",
+        "codeception/codeception": "^2.2",
+        "ext-phalcon": "^3.0"
+    }
 }
