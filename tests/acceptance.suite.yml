@@ -8,7 +8,7 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://api.pushcard.proovelab.com/v1/token
+            url: http://api.pushcard.proovelab.com/
             part: Json
         - JsonSchema
         - \Helper\Acceptance

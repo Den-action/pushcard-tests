@@ -26,6 +26,7 @@ class ComposerStaticInit38a5bb113d0526715a41bdc91b5336e4
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\DomCrawler\\' => 29,
@@ -57,6 +58,7 @@ class ComposerStaticInit38a5bb113d0526715a41bdc91b5336e4
         ),
         'C' => 
         array (
+            'Codeception\\Module\\' => 19,
             'Codeception\\Extension\\' => 22,
             'Codeception\\' => 12,
         ),
@@ -80,6 +82,10 @@ class ComposerStaticInit38a5bb113d0526715a41bdc91b5336e4
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
         ),
         'Symfony\\Component\\Finder\\' => 
         array (
@@ -145,6 +151,10 @@ class ComposerStaticInit38a5bb113d0526715a41bdc91b5336e4
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Codeception\\Module\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cnam/codeception-json-schema/src/Codeception/Module',
+        ),
         'Codeception\\Extension\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeception/codeception/ext',
@@ -161,6 +171,13 @@ class ComposerStaticInit38a5bb113d0526715a41bdc91b5336e4
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'J' => 
+        array (
+            'JsonSchema' => 
+            array (
+                0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src',
             ),
         ),
         'B' => 

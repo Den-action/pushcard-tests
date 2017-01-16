@@ -1,5 +1,6 @@
 {
     "require": {
+        "cnam/codeception-json-schema": "^0.0.1",
         "phalcon/devtools": "^3.0",
         "codeception/codeception": "^2.2",
         "ext-phalcon": "^3.0"
