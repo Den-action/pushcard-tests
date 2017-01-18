@@ -20,6 +20,11 @@ class AcceptanceTester extends \Codeception\Actor
 {
     use _generated\AcceptanceTesterActions;
 
+/** 
+*public function sendPOST($url, $params = null, $files = null) {
+*        return $this->getScenario()->runStep(new \Codeception\Step\Action('sendPOST', func_get_args()));
+*    }
+*/
    /**
     * Define custom actions here
     */
