@@ -7,11 +7,12 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser:
+#        - PhpBrowser:
+#            url: http://api.pushcard.proovelab.com/
+#            part: Json
+#        - JsonSchema
+#        - \Helper\Acceptance
+        - REST:
+            depends: PhpBrowser
             url: http://api.pushcard.proovelab.com/
             part: Json
-#        - JsonSchema
-        - \Helper\Acceptance
-#        - REST:
-#            depends: PhpBrowser
-#            url: http://api.pushcard.proovelab.com/
