@@ -10,7 +10,7 @@ modules:
 #        - PhpBrowser:
 #            url: http://api.pushcard.proovelab.com/
 #            part: Json
-#        - \Helper\Acceptance
+        - \Helper\Acceptance
         - JsonSchema
         - REST:
             depends: PhpBrowser
